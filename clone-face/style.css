@@ -1,0 +1,115 @@
+body {
+  background-color: rgba(209, 211, 212, 0.349);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.cabecalho {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.cabecalho h1 {
+  color: #0066ff;
+  font-size: 3.5rem;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bolder;
+  text-align: center;
+}
+.cabecalho p {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 25px;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+ .formulario {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 15px;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.formulario 
+ .email,
+ .senha {
+  height: 3rem;
+  border-radius: 0.5rem;
+  font-size: 15px;
+  border: 1px solid rgba(128, 128, 128, 0.219);
+  padding-left: 0.7rem;
+}
+
+.formulario .btnLogin {
+  height: 2.5rem;
+  border-radius: 0.4rem;
+  background-color: #0066ff;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: none;
+}
+
+.formulario .btnCriarConta {
+  width: 40%;
+  margin: 0 auto;
+  height: 3rem;
+  border-radius: 0.4rem;
+  background-color: #2b9910;
+  color: #fff;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: none;
+}
+
+.quebra {
+  width: 95%;
+  border: #d5dfd3c2 0.5px solid;
+}
+
+.p-formulario {
+  width: 70%;
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.linguagens{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+;
+    margin: 3rem 0;
+
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
